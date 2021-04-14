@@ -1,24 +1,28 @@
-package com.assigment.complex.demo;
+package com.assignment.shape.demo;
 
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("\n----------Class A output----------\n");
-		A a=new A();
-		a.sum();
-		a.sub();
 		
-		System.out.println("\n----------Class Complex_A output----------\n");
+		Shape sp=new Shape();
+		Rectangle rt=new Rectangle();
+		Circle ci=new Circle();
+		Square sq=new Square();
 		
-			
-		Complex_A ca=new Complex_A();
-		ca.sum();
-		ca.sub();
 		
+		sp.area();
+		sp.periphery();
+		
+		
+		rt.area();
+		rt.periphery();
+		
+		ci.area();
+		ci.periphery();
+		
+		sq.area();
+		sq.periphery();
 		
 	}
-
-	
-
 
 }
